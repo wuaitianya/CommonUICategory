@@ -80,7 +80,7 @@ typedef NS_ENUM(NSUInteger, MKButtonEdgeInsetsStyle) {
  *  控制上下左右的延长范围
  
  */
-- (void)setEnlargeEdgeWithTop:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom left:(CGFloat)left;
+- (void)setEnlargeEdge:(UIEdgeInsets)targetEdge;
 
 #pragma mark - 防止重复点击
 @property (nonatomic, assign) NSTimeInterval cs_acceptEventInterval; // 重复点击的间隔
